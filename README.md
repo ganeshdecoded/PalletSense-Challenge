@@ -632,7 +632,7 @@ celery>=5.2.0          # Task queue (optional)
 ### Installation
 ```bash
 # Clone repository
-git clone [repository-url]
+git clone https://github.com/ganeshdecoded/PalletSense-Challenge.git
 cd palletsense
 
 # Create virtual environment
@@ -642,46 +642,6 @@ source venv/bin/activate  # Linux/Mac
 
 # Install dependencies
 pip install -r requirements.txt
-
-# Install optional dependencies
-pip install -r requirements-optional.txt
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-```
-
-### Configuration
-```bash
-# Create and edit environment file
-cp .env.example .env
-
-# Required environment variables
-MESH_NETWORK_KEY=your_key
-GPS_API_KEY=your_key
-DB_CONNECTION=your_connection_string
-REDIS_URL=your_redis_url
-API_SECRET=your_secret
-
-# Optional configurations
-DEBUG_MODE=False
-LOG_LEVEL=INFO
-BATCH_SIZE=1000
-CACHE_TIMEOUT=3600
-```
-
-### Running the System
-```bash
-# Start the main application
-python main.py
-
-# Start with specific configuration
-python main.py --config=production.yml
-
-# Start in debug mode
-python main.py --debug
-
-# Start with custom port
-python main.py --port=8080
 ```
 
 ### Output Files
