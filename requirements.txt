@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+scipy
+folium
+haversine
+matplotlib
+seaborn
+plotly
+dash
+python-dotenv
+fastapi
+uvicorn
