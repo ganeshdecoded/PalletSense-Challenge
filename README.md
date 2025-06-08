@@ -1,3 +1,4 @@
+
 # PalletSense: Smart Pallet Tracking System 🚛
 
 ## Overview
